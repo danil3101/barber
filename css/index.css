@@ -1,0 +1,163 @@
+* {
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0;
+  margin: 0; }
+
+a {
+  color: #fff; }
+
+html {
+  font-size: 10px;
+  color: #fff; }
+
+body {
+  height: 2000px;
+  font-family: 'PT Sans', sans-serif; }
+
+header {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  background-color: #000; }
+
+nav {
+  width: 100%;
+  max-width: 908px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.menu {
+  padding-top: 9px;
+  padding-left: 5px;
+  display: flex;
+  width: 76%;
+  justify-content: space-between; }
+
+.input {
+  cursor: pointer;
+  padding: 28px 0;
+  padding-right: 4px;
+  padding-top: 33px; }
+
+.icon {
+  width: 18px;
+  height: 16px;
+  float: left;
+  background: url(../img/sprites.png) no-repeat;
+  background-position: 0 -211px;
+  margin-right: 15px; }
+
+.menu-item {
+  padding: 28px 0; }
+
+.active {
+  border-bottom: 3px solid #B28062; }
+
+.main-bg {
+  background: #000 url(../img/index-backgound.jpg) no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  width: 100%;
+  position: relative; }
+
+.logo-wrapp {
+  padding-top: 51px;
+  padding-bottom: 122px; }
+
+.logo {
+  background: url(../img/content-logo.png) no-repeat;
+  width: 368px;
+  height: 152px;
+  margin: 0 auto; }
+
+.block-info {
+  display: flex;
+  height: 320px;
+  position: relative;
+  top: 160px;
+  width: 80%;
+  max-width: 960px;
+  margin: 0 auto; }
+  .block-info .wrapp-info-2 .wrapp-info-item {
+    width: 50%;
+    height: 160px; }
+
+.wrapp-info-1 {
+  padding-right: 60px;
+  padding-left: 40px;
+  background: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  width: 33.33333333%;
+  height: 320px; }
+  .wrapp-info-1:before, .wrapp-info-1:after {
+    content: '';
+    position: absolute;
+    border: 21px solid transparent;
+    border-top: 21px solid #fff;
+    top: 37px;
+    left: -21px; }
+  .wrapp-info-1 div {
+    height: 160px; }
+  .wrapp-info-1 div > h2 {
+    padding-top: 30px;
+    font-size: 3.4rem;
+    line-height: 4rem; }
+  .wrapp-info-1 span {
+    font-size: 1.65rem;
+    padding-left: 0px;
+    color: #B3B3B3; }
+
+.wrapp-info-2 {
+  width: 66.6666666%;
+  display: flex;
+  flex-wrap: wrap; }
+
+.wrapp-info-item {
+  display: flex;
+  flex-direction: column;
+  padding-left: 35px;
+  padding-top: 16px;
+  font-size: 7rem; }
+  .wrapp-info-item small {
+    font-size: 1.65rem; }
+
+.sub-text {
+  padding-left: 2px;
+  margin-top: -7px;
+  line-height: 2.7rem;
+  padding-bottom: 23px;
+  font-size: 1.65rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.advantages {
+  background-color: #323232;
+  height: 600px;
+  padding-top: 240px; }
+
+.advantages-wrap {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 980px; }
+
+.advantage {
+  display: flex;
+  flex-direction: column;
+  width: 33.33333333%;
+  text-align: center;
+  padding: 0 20px; }
+  .advantage h2 {
+    text-transform: uppercase;
+    font-size: 2.6rem;
+    margin-top: 22px;
+    margin-bottom: 13px; }
+  .advantage p {
+    font-size: 1.9rem; }
